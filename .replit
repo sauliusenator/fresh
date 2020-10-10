@@ -1,0 +1,15 @@
+let string = "I love JavaScript"
+let result; 
+
+// console.log(string.length)
+// console.log(string.toUpperCase())
+// console.log(string.toLowerCase())
+
+
+if(string.includes("love")){
+result = string.toUpperCase()
+} else {
+result = string.toLowerCase()
+}
+
+console.log(result)
