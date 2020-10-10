@@ -1,13 +1,9 @@
-function reverse(str) {
-  if(!str || str.length < 2 || typeof str !== "string") {
-    return new Error("Not a valid input");
-  }
-  const backwards = [];
-  for (let i = str.length; i > -1; i--) {
-    backwards.push(str[i]);
-  }
-  return backwards.join('');
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
+console.log(getRandomInt(100));
+// expected output: 0, 1 or 2
 
-console.log(reverse("Hello!"));
+
+console.log(Math.random(0));
